@@ -1,0 +1,125 @@
+.header {
+    background: #fff;
+    text-align: center;
+    
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+}
+
+.header__logo {
+   
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+
+    
+}
+
+.contact-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.contact-form__heading {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+    text-align: left; /* フォーム全体を左揃えに */
+}
+
+.form__group {
+    display: flex;
+    justify-content: flex-start; /* フォームグループの要素を左揃えに */
+    align-items: center; /* 要素を垂直方向に中央揃え */
+    margin-bottom: 15px;
+    text-align: left; /* グループ内のテキストを左揃えに */
+}
+
+.form__group-title {
+    flex-basis: 20%; /* タイトル部分の幅を調整 */
+    text-align: left; /* タイトル部分のテキストを左揃えに */
+}
+
+.form__group-content {
+    flex-basis: 80%; /* コンテンツ部分の幅を調整 */
+    text-align: left; /* コンテンツ部分のテキストを左揃えに */
+}
+
+.form__label--required {
+    margin-left: 5px;
+    padding: 4px 6px;
+    border-radius: 3px;
+    background: #fafafa;
+    color: #aaa;
+}
+
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+}
+
+.form__input--text input,
+.form__input--textarea textarea,
+.form__input--tel input,
+.form__input--select select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    appearance: none;
+}
+
+.form__input--text input {
+    height: 40px;
+    width: 100%; /* テキスト入力の幅を100%に */
+}
+
+.form__input--textarea textarea {
+    height: 180px;
+    width: 100%; /* テキストエリアの幅を100%に */
+}
+
+.half-width {
+    width: 48%; /* テキストフィールドの幅を半分に */
+   display: inline-block; /* インラインブロックに */
+}
+
+.third-width {
+    width: 30%; /* テキストフィールドの幅を1/3に */
+    display: inline-block; /* インラインブロックに */
+}
+
+.hyphen {
+    display: inline-block; /* ハイフンもインラインブロックに */
+    vertical-align: middle; /* テキストフィールドと垂直方向に揃える */
+}
+
+.form__input--radio label {
+    margin-right: 10px;
+}
+
+.form__button {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 30%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
